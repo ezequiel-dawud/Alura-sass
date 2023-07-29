@@ -1,0 +1,15 @@
+@import './../abstract/variaveis';
+
+.last-banner{
+    text-align: center;
+    padding: 3rem 0;
+    h3{
+        font-size: 1.2rem;
+        color: $cor-escura;
+    }
+    h4{
+        color: $cor-escura;
+        font-weight: 200;
+        margin: 0.5rem 0;
+    }
+}

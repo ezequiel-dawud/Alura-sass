@@ -1,10 +1,13 @@
 import styles.abstract._variaveis.scss
 
 
-@mixin
+@mixin bg-cores($cores...)
+    background: linear-gradient(to left, $cores)
 footer
     text-align: center
     font-size: 1.5rem
     margin-top: 1rem
+    @include bg-cores($cor-primaria, $cor-terciaria, $cor-primaria)
+    
     i
         color: $cor-escura

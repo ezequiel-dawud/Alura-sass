@@ -151,12 +151,26 @@ nav ul li a:hover {
   cursor: pointer;
 }
 
-@mixi;
 footer {
   text-align: center;
   font-size: 1.5rem;
   margin-top: 1rem;
+  background: linear-gradient(to left, #ACFADF, #E8FFCE, #ACFADF);
 }
 footer i {
   color: #2a2269;
+}
+
+.last-banner {
+  text-align: center;
+  padding: 3rem 0;
+}
+.last-banner h3 {
+  font-size: 1.2rem;
+  color: #2a2269;
+}
+.last-banner h4 {
+  color: #2a2269;
+  font-weight: 200;
+  margin: 0.5rem 0;
 }/*# sourceMappingURL=estilo.css.map */
