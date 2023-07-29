@@ -17,8 +17,30 @@ nav ul li a {
   color: #E8FFCE;
 }
 nav ul li a:hover {
-  border: 1px solid #94ADD7;
-  padding: 5px;
-  background-color: #94ADD7;
-  border-radius: 25%;
+  border-bottom: 2px solid #94ADD7;
+}
+
+.banner {
+  background: url(../../imagens/banner.jpeg) 27% center no-repeat;
+  min-height: 350px;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0.9;
+}
+.banner .inner-banner {
+  padding: 3rem;
+  background-color: #7C73C0;
+  opacity: 0.8;
+  border-radius: 45px;
+  text-align: center;
+}
+.banner .inner-banner h1 {
+  font-size: 3rem;
+  color: #ACFADF;
+}
+.banner .inner-banner h2 {
+  font-size: 1.5rem;
+  color: #E8FFCE;
 }/*# sourceMappingURL=estilo.css.map */
