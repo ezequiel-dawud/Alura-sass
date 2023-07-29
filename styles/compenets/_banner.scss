@@ -1,6 +1,6 @@
 @import '../abstract/variaveis';
 
-.banner{
+.banner {
     background: url(../../imagens/banner.jpeg) 27% center no-repeat;
     min-height: 350px;
     background-size: cover;
@@ -8,19 +8,30 @@
     justify-content: center;
     align-items: center;
     opacity: 0.9;
-    .inner-banner{
+
+    .inner-banner {
         padding: 3rem;
-        background-color: $cor-quaternaria;
+        background-color: $cor-terciaria;
         opacity: 0.8;
         border-radius: 45px;
         text-align: center;
-        h1{
+
+        h1 {
+            background: url(../../imagens/banner.jpeg) center center;
             font-size: 3rem;
-            color: $cor-primaria;
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            font-weight: bold;
+
         }
-        h2{
+
+        h2 {
+            background: url(../../imagens/banner.jpeg) center center;
             font-size: 1.5rem;
-            color: $cor-terciaria;
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
         }
     }
 }
